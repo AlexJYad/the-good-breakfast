@@ -1,34 +1,44 @@
 .menu-table {
    align-self: center;
-  width: 70%;
-  border-collapse: collapse;
-  font-family: 'Arial', sans-serif;
+   margin: 10px 10%;
+   width: 100%;
+   border-collapse: collapse;
+   font-family: "Arial", sans-serif;
+   border-radius: 12px;
+   overflow: hidden;
+   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
 }
 
 .menu-table th {
-  text-align: left;
-  padding: 8px;
-  font-size: 16px;
-  border-bottom: 2px solid #333;
+   text-align: left;
+   padding: 16px;
+   font-size: 16px;
+   border-bottom: 2px solid #333;
 }
 
 .menu-table td {
-  padding: 6px 8px;
-  font-size: 15px;
+   padding: 10px 10px;
+   font-size: 15px;
 }
 
 .menu-table td:nth-child(2),
-.menu-table td:nth-child(4), .menu-table th:nth-child(2), .menu-table th:nth-child(4) {
-  text-align: right;
-  white-space: nowrap;
+.menu-table td:nth-child(4),
+.menu-table th:nth-child(2),
+.menu-table th:nth-child(4) {
+   text-align: right;
+   white-space: nowrap;
 }
 
 .menu-table hr {
-  border: none;
-  border-top: 1.5px solid #666;
-  margin: 20px 30%;
+   border: none;
+   border-top: 1.5px solid #666;
+   margin: 20px 30%;
 }
 
 .menu-table tr:nth-child(odd) {
-  background-color: #e2e2e2ab; /* светло-серый фон для нечётных строк */
+   background-color: #e2e2e2ab; /* светло-серый фон для нечётных строк */
+}
+
+.menu-table tr:last-child td {
+   padding-bottom: 10px;
 }
