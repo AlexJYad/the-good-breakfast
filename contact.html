@@ -1,0 +1,76 @@
+
+        <!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Urban Toast</title>
+      <link rel="stylesheet" href="index.css">
+   </head>
+
+   <body>
+      <header>
+         <nav>
+            <ul>
+               <li><a href="index.html">HOME</a></li>
+               <li><a href="about.html">ABOUT US</a></li>
+               <li><a href="menu.html">DAILY OFFER</a></li>
+               <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+         </nav>
+      </header>
+
+      <main> <!-- RESERVAS -->
+         <section id="reservas">
+            <h2>Reservas Aquí</h2>
+
+            <form>
+               <fieldset>
+                  <legend>Reservation info</legend>
+
+                  <label for="name">Nombre:</label>
+                  <input type="text" id="name" name="name" required>
+
+                  <br><br>
+
+                  <p>Tipo:</p>
+                  <input type="radio" id="snack" name="meal" value="snack">
+                  <label for="snack">Snack</label>
+
+                  <input
+                     type="radio"
+                     id="breakfast"
+                     name="meal"
+                     value="breakfast"
+                  >
+                  <label for="breakfast">Breakfast</label>
+
+                  <br><br>
+
+                  <label for="people">Número de personas:</label>
+                  <select id="people" name="people">
+                     <option value="1">1</option>
+                     <option value="2">2</option>
+                     <option value="3">3</option>
+                     <option value="4">4</option>
+                  </select>
+
+                  <br><br>
+
+                  <button type="submit">Enviar</button>
+               </fieldset>
+            </form>
+         </section>
+               </main>
+
+      <!-- FOOTER -->
+      <footer id="contact">
+         <h2>Contact</h2>
+         <p><a href="mailto:info@test.com">Contact Us</a></p>
+
+         <p>Opening hours:</p>
+         <p>Monday - Friday: 08:00 - 18:00</p>
+         <p>Saturday - Sunday: 09:00 - 14:00</p>
+      </footer>
+   </body>
+</html>
