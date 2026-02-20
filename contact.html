@@ -31,12 +31,13 @@
 
                <label for="name">Nombre:</label>
                <input type="text" id="name" name="name" required>
+
                <p>Tipo:</p>
                <input type="radio" id="snack" name="meal" value="snack">
                <label for="snack">Snack</label>
-
                <input type="radio" id="breakfast" name="meal" value="breakfast">
                <label for="breakfast">Breakfast</label>
+
                <label for="people">Número de personas:</label>
                <select id="people" name="people">
                   <option value="1">1</option>
@@ -44,7 +45,8 @@
                   <option value="3">3</option>
                   <option value="4">4</option>
                </select>
-               <button type="submit">Enviar</button>
+
+               <button type="submit" class="button">Enviar</button>
             </fieldset>
          </form>
       </section>
@@ -53,11 +55,16 @@
    <!-- FOOTER -->
    <footer id="contact">
       <h2>Contact</h2>
-      <p><a href="mailto:info@test.com">Contact Us</a></p>
-
-      <p>Opening hours:</p>
-      <p>Monday - Friday: 08:00 - 18:00</p>
-      <p>Saturday - Sunday: 09:00 - 14:00</p>
+      <div id="end">
+         <section class="hours">
+            <h3>Opening hours:</h3>
+            <p>Monday - Friday: 08:00 - 18:00</p>
+            <p>Saturday - Sunday: 09:00 - 14:00</p>
+         </section>
+         <section class="contact">
+            <p><a href="mailto:info@test.com" class="button">Contact Us</a></p>
+         </section>
+      </div>
    </footer>
 </body>
 

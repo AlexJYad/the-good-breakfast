@@ -27,47 +27,48 @@
       <!-- MENU -->
       <section id="menu">
          <h1>Menu</h1>
-         <div>
-            <table class="menu-table">
+         <div class="menu-tables">
+            <table class="menu-table-coffee">
                <!-- Coffee & Tea Block -->
                <tr>
                   <th>Coffee</th>
-                  <th>Price</th>
+                  <th class="price">Price</th>
                   <th>Tea</th>
-                  <th>Price</th>
+                  <th class="price">Price</th>
                </tr>
                <tr>
                   <td>Latte</td>
-                  <td>2€</td>
+                  <td class="price">2€</td>
                   <td>Black</td>
-                  <td>1.5€</td>
+                  <td class="price">1.5€</td>
                </tr>
                <tr>
                   <td>Espresso</td>
-                  <td>1.5€</td>
+                  <td class="price">1.5€</td>
                   <td>Green</td>
-                  <td>1.8€</td>
+                  <td class="price">1.8€</td>
                </tr>
-
-               <!-- Separator -->
-               <tr>
+            </table>
+            <!-- Separator -->
+            <!-- <tr>
                   <td colspan="4">
                      <hr>
                   </td>
-               </tr>
+               </tr> -->
 
-               <!-- Drinks Block -->
+            <!-- Drinks Block -->
+            <table class="menu-table-drinks">
                <tr>
-                  <th colspan="2">Drinks</th>
-                  <th colspan="2">Price</th>
+                  <th>Drinks</th>
+                  <th class="price">Price</th>
                </tr>
                <tr>
-                  <td colspan="2">Water</td>
-                  <td colspan="2">Free</td>
+                  <td>Water</td>
+                  <td class="price">Free</td>
                </tr>
                <tr>
-                  <td colspan="2">Juice</td>
-                  <td colspan="2">2€</td>
+                  <td>Juice</td>
+                  <td class="price">2€</td>
                </tr>
             </table>
          </div>
@@ -78,11 +79,16 @@
    <!-- FOOTER -->
    <footer id="contact">
       <h2>Contact</h2>
-      <p><a href="mailto:info@test.com">Contact Us</a></p>
-
-      <p>Opening hours:</p>
-      <p>Monday - Friday: 08:00 - 18:00</p>
-      <p>Saturday - Sunday: 09:00 - 14:00</p>
+      <div id="end">
+         <section class="hours">
+            <h3>Opening hours:</h3>
+            <p>Monday - Friday: 08:00 - 18:00</p>
+            <p>Saturday - Sunday: 09:00 - 14:00</p>
+         </section>
+         <section class="contact">
+            <p><a href="mailto:info@test.com" class="button">Contact Us</a></p>
+         </section>
+      </div>
    </footer>
 </body>
 

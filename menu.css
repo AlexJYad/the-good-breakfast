@@ -1,7 +1,6 @@
-.menu-table {
+table {
    align-self: center;
-   margin: 10px 10%;
-   width: 100%;
+   margin: 10px 20%;
    border-collapse: collapse;
    font-family: "Arial", sans-serif;
    border-radius: 12px;
@@ -9,36 +8,46 @@
    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
 }
 
-.menu-table th {
+table th {
    text-align: left;
    padding: 16px;
    font-size: 16px;
    border-bottom: 2px solid #333;
+   background-color: var(--color-primary);
 }
 
-.menu-table td {
+table td {
    padding: 10px 10px;
    font-size: 15px;
 }
 
-.menu-table td:nth-child(2),
-.menu-table td:nth-child(4),
-.menu-table th:nth-child(2),
-.menu-table th:nth-child(4) {
+table .price {
    text-align: right;
    white-space: nowrap;
 }
 
-.menu-table hr {
+/* table td:nth-child(2),
+table th:nth-child(2) {
+   padding-right: 10px;
+} */
+
+.menu-tables {
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-template-rows: 1fr 1fr;
+   row-gap: 2em;
+}
+
+table hr {
    border: none;
    border-top: 1.5px solid #666;
    margin: 20px 30%;
 }
 
-.menu-table tr:nth-child(odd) {
+table tr:nth-child(odd) {
    background-color: #e2e2e2ab; /* светло-серый фон для нечётных строк */
 }
 
-.menu-table tr:last-child td {
+table tr:last-child td {
    padding-bottom: 10px;
 }
